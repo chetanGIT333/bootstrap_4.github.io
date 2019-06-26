@@ -1,0 +1,208 @@
+
+  
+.navbar{
+  height: 70px;
+  width: 100%;
+
+}
+.navbar-brand{
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top:2px;
+  left: 20px;
+  line-height: 60px;
+  color: black;
+  margin: 2.5px;
+  background-color: white;
+  text-align: center;
+  animation: sample 2s ease-in infinite alternate;
+
+}
+.navbar-brand img
+    { position: absolute;
+    top: 1.6px;
+    left: 1.2px;
+     width: 60px; height: 60px;}
+
+@keyframes sample{0% {border-radius: 0%;}
+                  50%{background: lightgreen;}
+                  100%{border-radius: 50%; background-color: yellow; color: white;}}
+ 
+
+.container h1{
+ animation: portfolio 2s ease-in infinite alternate;
+}
+
+@keyframes portfolio{0% {color: black;}
+                 
+                  100% {color: silver;}}
+ 
+ .card{
+      width: 350; height: 355px;
+ }
+ .card-large{
+          width: 350; height: 1018.48px;
+ }
+ .card-large img{border-style: solid;
+           -webkit-transition:all 0.5s ease;
+            transform: scale(0.6);}
+ .card-large img:hover{border-style: none;
+               transform: scale(1);}
+  .card-large img{
+ animation: img 1.2s ease-in 1 alternate;
+}
+
+@keyframes img{0% {transform: scale(0.6);}
+             
+                  100%{transform: scale(1);}}
+
+ .card img{
+ animation: img 1.2s ease-in 1 alternate;
+}
+
+@keyframes img{0% {transform: scale(0.6);}
+                  100%{transform: scale(1);}}
+ .card img{border-style: solid;
+           -webkit-transition:all 0.5s ease;
+            transform: scale(0.6);}
+ .card img:hover{border-style: none;
+               transform: scale(1);}
+
+
+/* Footer Area css
+============================================================================================ */
+.footer_area {
+  background: #000410; }
+
+.f_title {
+  margin-bottom: 35px; }
+  .f_title h3 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Heebo", sans-serif;
+    margin-bottom: 0px;
+    text-transform: uppercase; }
+
+.ab_widget p {
+  font-size: 14px;
+  line-height: 24px;
+  font-family: "Roboto", sans-serif;
+  color: #777777;
+  margin-bottom: 30px; }
+  .ab_widget p a {
+    color: #8490ff; }
+  .ab_widget p + p {
+    margin-bottom: 0px; }
+
+.news_widget {
+  padding-left: 15px; }
+  .news_widget p {
+    font-size: 14px;
+    line-height: 24px;
+    font-family: "Roboto", sans-serif;
+    color: #777777;
+    margin-bottom: 15px; }
+  .news_widget .input-group input {
+    height: 40px;
+    background: #fff;
+    border-radius: 0px;
+    width: 80%;
+    border: none;
+    padding: 0px 15px;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    color: #cccccc;
+    outline: none;
+    box-shadow: none; }
+    .news_widget .input-group input.placeholder {
+      font-size: 14px;
+      font-family: "Roboto", sans-serif;
+      font-weight: normal;
+      color: #cccccc; }
+    .news_widget .input-group input:-moz-placeholder {
+      font-size: 14px;
+      font-family: "Roboto", sans-serif;
+      font-weight: normal;
+      color: #cccccc; }
+    .news_widget .input-group input::-moz-placeholder {
+      font-size: 14px;
+      font-family: "Roboto", sans-serif;
+      font-weight: normal;
+      color: #cccccc; }
+    .news_widget .input-group input::-webkit-input-placeholder {
+      font-size: 14px;
+      font-family: "Roboto", sans-serif;
+      font-weight: normal;
+      color: #cccccc; }
+  .news_widget .input-group .sub-btn {
+    border-radius: 0px;
+    background-image: -moz-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+    background-image: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+    background-image: -ms-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+    outline: none !important;
+    box-shadow: none !important;
+    padding: 0px;
+    width: 42px;
+    cursor: pointer;
+    color: #fff; }
+
+.social_widget p {
+  font-size: 14px;
+  line-height: 24px;
+  font-family: "Roboto", sans-serif;
+  color: #777777;
+  margin-bottom: 10px; }
+.social_widget .list li {
+  margin-right: 17px;
+  display: inline-block; }
+  .social_widget .list li a {
+    color: #cccccc;
+    font-size: 14px;
+    transition: all 300ms linear 0s; }
+  .social_widget .list li:last-child {
+    margin-right: 0px; }
+  .social_widget .list li:hover a {
+    color: #8490ff; }
+
+.copy_right_text {
+  text-align: center;
+  margin-top: 60px; }
+  .copy_right_text p a {
+    color: #8490ff; }
+
+     @media (min-width: 600px){
+      .navbar-brand logo_h img{
+        width: 50px;
+        height: 150px
+
+      }
+
+     }
+
+
+/* End Footer Area css
+============================================================================================ */
+  .navbar-link{
+                
+     }
+    
+.navbar-brand h1{margin-left: 70px;}
+.navbar-link{margin-left: 570px;}
+
+.navbar-text{color: white; font-weight: bold; font-size: 30px; margin-left: 80px;}
+ .navbar-text{
+ animation: text 1.2s ease-in 1 alternate;
+}
+
+@keyframes text{0% {margin-left: 0px;}
+                 10%{margin-left: 20px;}
+                 20%{margin-left: 40px; color: black;}
+                 30%{margin-left: 50px; }
+                 40%{margin-left: 60px; color: black;}
+                 50%{margin-left: 70px;}
+                  100%{margin-left:120px;}}
+
+ .nav-link{list-style: none; font-size: 20px; margin: 20px 0 0 890px;}
+
